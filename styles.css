@@ -4,6 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav {
+    text-align: center;
+}
+
+nav img {
+    display: inline-block;
+}
 
 nav ul {
     display: flex;
