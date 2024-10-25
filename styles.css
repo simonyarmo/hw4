@@ -1,4 +1,4 @@
-
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -15,30 +15,14 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 1rem;
     text-align: center;
 }
 
-nav {
-    background: #f4f4f4;
-    padding: 1rem;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
+.headerOne {
+    background-color: black;
+    color: rgb(57, 97, 197);
+    padding: 10px;
+    border-radius: 5px;
 }
 
 main {
@@ -67,26 +51,14 @@ footer {
     position: absolute;
     width: 100%;
 }
+
 .highlight {
     background-color: yellow;
     color: black;
     padding: 10px;
     border-radius: 5px;
 }
-.headerOne{
-    background-color: Black;
-    color: rgb(57, 97, 197);
-    padding: 10px;
-    border-radius: 5px;
-}
 
-#SpecificSharks {
-    background-color: lightblue;
-    color: darkblue;
-    padding: 20px;  /* Increased padding around the content */
-    border: 2px solid black;
-    text-align: center;
-}
 a:hover {
     color: green;
 }
