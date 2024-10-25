@@ -5,17 +5,8 @@
     box-sizing: border-box;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-}
-
-ul {
-    list-style-type: none;  /* Remove bullet points */
-    padding: 0;
-}
-
 #center {
+    text-align: center;
     display: block;
     margin: auto;
 }
