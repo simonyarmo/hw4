@@ -4,15 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav {
-    text-align: center;
-}
 
-nav img {
-    display: inline-block;
-}
-
-nav ul {
+#center {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +59,7 @@ footer {
 }
 
 .highlight {
-    background-color: yellow;
+    background-color: lightblue;
     color: black;
     padding: 10px;
     border-radius: 5px;
